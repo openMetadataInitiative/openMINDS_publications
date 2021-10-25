@@ -1,0 +1,23 @@
+{
+  "_type": "https://openminds.ebrains.eu/publications/Chapter",
+  "_extends": "creativeWork.schema.tpl.json",
+  "required": [
+    "fullName",
+    "isPartOf",
+    "author"
+  ],
+  "properties": {
+    "isPartOf": {
+      "_instruction": "Add the book this chapter is part of.",
+      "_linkedTypes": ["https://openminds.ebrains.eu/publications/Book"]
+    },
+    "pagination": {
+      "type": "string",
+      "_instruction": "Enter the page range."
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this periodical.",
+      "_linkedTypes": ["https://openminds.ebrains.eu/core/DOI"]
+    }
+  }
+}

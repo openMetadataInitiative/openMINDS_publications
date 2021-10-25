@@ -1,0 +1,60 @@
+{
+  "_type": "https://openminds.ebrains.eu/publications/LivePaperVersion",
+  "_extends": "/core/products/researchProductVersion.schema.tpl.json",
+  "required": ["digitalIdentifier", "license"],
+  "properties": {
+    "about": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add links to the datasets, models or software contained within or described by this version of the live paper.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ]
+    },
+    "abstract": {
+      "type": "string",
+      "_instruction": "Enter the abstract of the live paper."
+    },
+    "author": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this live paper version. Note that these authors will overwrite the ones provided in the live paper product this version belongs to.",
+      "_linkedCategories": ["legalPerson"]
+    },
+    "creationDate": {
+        "type": "string",
+        "_formats": [
+          "date"
+        ],
+        "_instruction": "Enter the date on which the live paper was created.",
+        "_originalName": "dateCreated"
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this live paper version.",
+      "_linkedTypes": ["https://openminds.ebrains.eu/core/DOI"]
+    },
+    "isAlternativeVersionOf": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all live paper versions that can be used alternatively to this live paper version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/publications/LivePaperVersion"
+      ]
+    },
+    "isNewVersionOf": {
+      "_instruction": "Add the live paper version preceding this live paper version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/publications/LivePaperVersion"
+      ]
+    },
+    "license": {
+      "_instruction": "Add the license for this live paper version.",
+      "_linkedTypes": ["https://openminds.ebrains.eu/core/License"]
+    }
+  }
+}

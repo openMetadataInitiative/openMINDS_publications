@@ -1,0 +1,138 @@
+{
+  "properties": {
+    "about": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add links to the datasets, models or software contained within or described by the creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ]
+    },
+    "abstract": {
+      "type": "string",
+      "_instruction": "Enter the abstract of the creative work."
+    },
+    "custodian": {
+      "_instruction": "Enter the person or people responsible for the creative work (e.g. the corresponding author).",
+      "_linkedCategories": [
+        "legalPerson"
+      ],
+      "_originalName": "accountablePerson"
+    },
+    "shortName": {
+      "type": "string",
+      "maxLength": 30,
+      "_instruction": "Enter a short name (alias) for this creative work (max. 30 characters; no space)."
+    },
+    "author": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this creative work.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "citation": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add citations or references from this work to another creative work",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/publications/Book",
+        "https://openminds.ebrains.eu/publications/Chapter",
+        "https://openminds.ebrains.eu/publications/ScholarlyArticle",
+        "https://openminds.ebrains.eu/publications/LivePaper"
+      ]
+    },
+    "copyright": {
+      "_instruction": "Add the copyright information of this research product version.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Copyright"
+      ],
+      "_originalName": ["copyrightHolder", "copyrightYear"]
+    },
+    "creationDate": {
+      "type": "string",
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date on which the creative work was created.",
+      "_originalName": "dateCreated"
+    },
+    "releaseDate": {
+      "type": "string",
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date when this version of the creative work was published or uploaded to a preprint server.",
+      "_originalName": "datePublished"
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI"
+      ]
+    },
+    "editor": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or more people who edited the creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person"
+      ]
+    },
+    "funding": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all funding information of this creative work version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Funding"
+      ],
+      "_originalName": "funder"
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter the full title of this creative work."
+    },
+    "keyword": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add controlled or suggest new terms as keywords to this creative work",
+      "_linkedCategories": [
+        "studyTarget"
+      ],
+      "originalName": "keywords"
+    },
+    "license": {
+      "_instruction": "Add the license for this creativeWork.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
+      ]
+    },
+    "publisher": {
+      "_instruction": "Enter the person or organisation who/which published this version of the creative work.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "IRI": {
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter a URL at which this creative work is available."
+    },
+    "versionIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the version identifier of this version of the creative work.",
+      "_originalName": "version"
+    }
+  }
+}
