@@ -16,6 +16,9 @@
       "_instruction": "Enter the abstract of the creative work."
     },
     "custodian": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Enter the person or people responsible for the creative work (e.g. the corresponding author).",
       "_linkedCategories": [
         "legalPerson"
