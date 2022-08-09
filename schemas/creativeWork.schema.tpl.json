@@ -71,7 +71,7 @@
       "_instruction": "Enter the date when this version of the creative work was published or uploaded to a preprint server."
     },
     "digitalIdentifier": {
-      "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
+      "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI"
       ]
