@@ -30,8 +30,7 @@
         "_formats": [
           "date"
         ],
-        "_instruction": "Enter the date on which the live paper was created.",
-        "_originalName": "dateCreated"
+        "_instruction": "Enter the date on which the live paper was created."
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this live paper version.",

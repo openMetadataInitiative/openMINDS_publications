@@ -10,8 +10,7 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ISBN",
         "https://openminds.ebrains.eu/core/DOI"
-      ],
-      "_originalName": "isbn"
+      ]
     }
   }
 }
