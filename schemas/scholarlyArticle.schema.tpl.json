@@ -2,7 +2,10 @@
   "_type": "https://openminds.ebrains.eu/publications/ScholarlyArticle",
   "_extends": "creativeWork.schema.tpl.json",
   "required": [
-      "isPartOf", "fullName", "releaseDate", "author"
+    "name",
+    "datePublished",
+    "isPartOf",
+    "author"
   ],
   "properties": {
     "isPartOf": {

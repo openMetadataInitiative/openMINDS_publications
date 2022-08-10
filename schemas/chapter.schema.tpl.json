@@ -2,7 +2,8 @@
   "_type": "https://openminds.ebrains.eu/publications/Chapter",
   "_extends": "creativeWork.schema.tpl.json",
   "required": [
-    "fullName",
+    "name",
+    "datePublished",
     "isPartOf",
     "author"
   ],
@@ -16,7 +17,7 @@
       "_instruction": "Enter the page range."
     },
     "digitalIdentifier": {
-      "_instruction": "Add the globally unique and persistent digital identifier of this periodical.",
+      "_instruction": "Add the globally unique and persistent digital identifier of this book chapter.",
       "_linkedTypes": ["https://openminds.ebrains.eu/core/DOI"]
     }
   }

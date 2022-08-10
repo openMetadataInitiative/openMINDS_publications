@@ -2,7 +2,8 @@
   "_type": "https://openminds.ebrains.eu/publications/Book",
   "_extends": "creativeWork.schema.tpl.json",
   "required": [
-      "fullName"
+    "name",
+    "datePublished"
   ],
   "properties": {
     "digitalIdentifier": {
