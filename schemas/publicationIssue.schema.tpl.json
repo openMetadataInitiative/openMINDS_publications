@@ -8,7 +8,7 @@
     },
     "isPartOf": {
       "_instruction": "Add the volume this issue is part of.",
-      "_embeddedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/publications/PublicationVolume"
       ]
     }
