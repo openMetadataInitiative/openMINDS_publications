@@ -8,10 +8,8 @@
   ],
   "properties": {
     "sectionType": {
-      "_instruction": "Add the type of this live paper section.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/LivePaperSectionType"
-      ]
+      "type": "string",
+      "_instruction": "Add the type of this live paper section: one of 'custom', 'generic', 'models', 'morphology', 'traces'"
     },
     "order": {
       "type": "integer",

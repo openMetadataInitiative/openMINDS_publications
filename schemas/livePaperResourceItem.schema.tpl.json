@@ -16,10 +16,10 @@
             "type": "string",
             "_instruction": "Enter a label for this item."
         },
-        "resourceType": {
-            "_instruction": "Add the type of this live paper resource item.",
+        "hostedBy": {
+            "_instruction": "Add the hosting organization of this live paper resource item.",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/controlledTerms/LivePaperResourceType"
+                "https://openminds.ebrains.eu/core/Organization"
             ]
         },
         "isPartOf": {
