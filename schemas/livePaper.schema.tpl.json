@@ -22,17 +22,6 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/publications/LivePaperVersion"
       ]
-    },
-    "relatedPublication": {
-        "type": "array",
-        "minItems": 1,
-        "uniqueItems": true,
-        "_instruction": "Add an identifier for the book, chapter, article, or preprint for which this live paper provides supplementary material.",
-        "_linkedTypes": [
-            "https://openminds.ebrains.eu/core/DOI",
-            "https://openminds.ebrains.eu/core/ISBN",
-            "https://openminds.ebrains.eu/core/ISSN"
-        ]
     }
   }
 }

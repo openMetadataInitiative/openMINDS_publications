@@ -1,11 +1,16 @@
 {
   "_type": "https://openminds.ebrains.eu/publications/LivePaperSection",
-  "required": ["isPartOf", "order", "sectionType", "name"],
+  "required": [
+    "isPartOf",
+    "order",
+    "sectionType",
+    "name"
+  ],
   "properties": {
     "sectionType": {
       "_instruction": "Add the type of this live paper section.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/LivePaperSectionType"
+        "https://openminds.ebrains.eu/controlledTerms/LivePaperSectionType"
       ]
     },
     "order": {

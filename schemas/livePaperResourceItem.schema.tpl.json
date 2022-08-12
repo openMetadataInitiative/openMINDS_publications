@@ -1,6 +1,11 @@
 {
     "_type": "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
-    "required": ["isPartOf", "resourceType", "name", "iri"],
+    "required": [
+        "isPartOf",
+        "resourceType",
+        "name",
+        "iri"
+    ],
     "properties": {
         "IRI": {
             "type": "string",
@@ -14,7 +19,7 @@
         "resourceType": {
             "_instruction": "Add the type of this live paper resource item.",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/publications/LivePaperResourceType"
+                "https://openminds.ebrains.eu/controlledTerms/LivePaperResourceType"
             ]
         },
         "isPartOf": {
