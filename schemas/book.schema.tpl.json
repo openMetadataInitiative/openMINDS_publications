@@ -1,0 +1,17 @@
+{
+  "_type": "https://openminds.ebrains.eu/publications/Book",
+  "_extends": "creativeWork.schema.tpl.json",
+  "required": [
+    "name",
+    "datePublished"
+  ],
+  "properties": {
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this book.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/DOI"
+      ]
+    }
+  }
+}

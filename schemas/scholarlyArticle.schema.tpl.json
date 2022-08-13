@@ -1,0 +1,23 @@
+{
+  "_type": "https://openminds.ebrains.eu/publications/ScholarlyArticle",
+  "_extends": "creativeWork.schema.tpl.json",
+  "required": [
+    "name",
+    "datePublished",
+    "isPartOf",
+    "author"
+  ],
+  "properties": {
+    "isPartOf": {
+      "_instruction": "Indicates a CreativeWork that this item is part of.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/publications/PublicationIssue",
+        "https://openminds.ebrains.eu/publications/PublicationVolume"
+      ]
+    },
+    "pagination": {
+      "type": "string",
+      "_instruction": "Enter the page range."
+    }
+  }
+}

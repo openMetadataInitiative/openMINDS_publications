@@ -1,0 +1,18 @@
+{
+  "_type": "https://openminds.ebrains.eu/publications/Periodical",
+  "required": ["shortName"],
+  "properties": {
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter the official full name of the periodical, e.g. Journal of Physiology"
+    },
+    "shortName": {
+      "type": "string",
+      "_instruction": "Enter the most commonly used abbreviation of the periodical name, e.g. J. Physiol."
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this periodical.",
+      "_linkedTypes": ["https://openminds.ebrains.eu/core/ISSN"]
+    }
+  }
+}

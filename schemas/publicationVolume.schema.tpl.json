@@ -1,0 +1,19 @@
+{
+  "_type": "https://openminds.ebrains.eu/publications/PublicationVolume",
+  "required": [
+    "isPartOf",
+    "volumeNumber"
+  ],
+  "properties": {
+    "volumeNumber": {
+      "type": "string",
+      "_instruction": "Enter the number of this volume."
+    },
+    "isPartOf": {
+      "_instruction": "Add the journal this is a volume of.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/publications/Periodical"
+      ]
+    }
+  }
+}

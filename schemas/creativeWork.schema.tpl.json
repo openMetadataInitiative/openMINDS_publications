@@ -1,0 +1,123 @@
+{
+  "properties": {
+    "abstract": {
+      "type": "string",
+      "_instruction": "Enter the abstract of the creative work."
+    },
+    "custodian": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the person or people responsible for the creative work (e.g. the corresponding author).",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "author": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this creative work.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "citedPublication": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add citations or references from this work to another creative work",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/ISBN"
+      ]
+    },
+    "copyright": {
+      "_instruction": "Add the copyright information of this creative work.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Copyright"
+      ]
+    },
+    "dateCreated": {
+      "type": "string",
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date on which the creative work was created."
+    },
+    "dateModified": {
+      "type": "string",
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date on which the creative work was last modified."
+    },
+    "datePublished": {
+      "type": "string",
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the date when this version of the creative work was published or uploaded to a preprint server."
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI"
+      ]
+    },
+    "editor": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or more people who edited the creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person"
+      ]
+    },
+    "funding": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all funding information of this creative work version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Funding"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter the full title of this creative work."
+    },
+    "keyword": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add controlled or suggest new terms as keywords to this creative work",
+      "_linkedCategories": [
+        "studyTarget"
+      ]
+    },
+    "license": {
+      "_instruction": "Add the license for this creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
+      ]
+    },
+    "publisher": {
+      "_instruction": "Enter the person or organisation who/which published this version of the creative work.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "IRI": {
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter a URL/IRI at which this creative work is available."
+    },
+    "versionIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the version identifier of this creative work."
+    }
+  }
+}
