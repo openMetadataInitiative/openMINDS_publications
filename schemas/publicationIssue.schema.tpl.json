@@ -1,6 +1,9 @@
 {
   "_type": "https://openminds.ebrains.eu/publications/PublicationIssue",
-  "required": ["isPartOf", "issueNumber"],
+  "required": [
+    "isPartOf", 
+    "issueNumber"
+  ],
   "properties": {
     "issueNumber": {
       "type": "string",
