@@ -2,7 +2,7 @@
     "_type": "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
     "required": [
         "isPartOf",
-        "resourceType",
+        "hostedBy",
         "name",
         "iri"
     ],
