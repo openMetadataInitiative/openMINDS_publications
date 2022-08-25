@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/publications/LivePaper",
-  "_extends": "/core/products/researchProduct.schema.tpl.json",
+  "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
   "required": ["author"],
   "properties": {
     "author": {
