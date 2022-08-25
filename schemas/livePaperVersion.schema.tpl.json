@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/publications/LivePaperVersion",
-  "_extends": "/core/products/researchProductVersion.schema.tpl.json",
+  "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
   "required": ["digitalIdentifier", "license"],
   "properties": {
     "about": {
