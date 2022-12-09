@@ -12,8 +12,10 @@
         "_instruction": "Enter the knowledge, skills, or abilities that are prerequisites for being able to use the learning resource."
     },
     "educationalLevel": {
-        "type": "string",
-        "_instruction": "Enter the level of the resource in terms of progression through an educational or training context, for example 'beginner', 'intermediate' or 'advanced'"
+      "_instruction": "Add the level of the resource in terms of progression through an educational or training context, for example 'beginner', 'intermediate' or 'advanced'",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/EducationalLevel"
+      ]
     },
     "learningResourceType": {
       "_instruction": "Add the type of the learning resource",
