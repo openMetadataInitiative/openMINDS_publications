@@ -1,6 +1,8 @@
-<a href="/img/light_openMINDS-pub-logo.png">
-    <img src="/img/light_openMINDS-pub-logo.png" alt="openMINDS publications logo" title="openMINDS publications" align="right" height="70" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/img/dark_openMINDS-pub-logo.png">
+  <source media="(prefers-color-scheme: light)" srcset="/img/light_openMINDS-pub-logo.png">
+  <img alt="openMINDS publications logo" src="/img/light_openMINDS-pub-logo.png"  title="openMINDS publications" align="right" height="70">
+</picture>
 
 # openMINDS_publications
 
