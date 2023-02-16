@@ -26,9 +26,6 @@
       "_instruction": "Enter an integer that is used to sort this live paper section in ascending order with other live paper sections of the overarching live paper version."
     },   
     "type": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
       "_instruction": "Add the type of this live paper section."
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/LivePaperSectionType"
