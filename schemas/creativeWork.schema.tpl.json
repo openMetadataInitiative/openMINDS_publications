@@ -45,12 +45,6 @@
         "legalPerson"
       ]
     },
-    "digitalIdentifier": {
-      "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
-      ]
-    },
     "editor": {
       "type": "array",
       "minItems": 1,
