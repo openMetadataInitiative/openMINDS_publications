@@ -4,16 +4,16 @@
     "isPartOf",
     "volumeNumber"
   ],
-  "properties": {
-    "volumeNumber": {
-      "type": "string",
-      "_instruction": "Enter the number of this volume."
-    },
+  "properties": {    
     "isPartOf": {
-      "_instruction": "Add the journal this is a volume of.",
+      "_instruction": "Add the periodical this publication volume is part of.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/publications/Periodical"
       ]
+    },
+    "volumeNumber": {
+      "type": "string",
+      "_instruction": "Enter the volume number of this publication volume."
     }
   }
 }
