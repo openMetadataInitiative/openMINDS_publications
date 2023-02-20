@@ -1,32 +1,34 @@
 {
-    "_type": "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
-    "required": [
-        "isPartOf",
-        "hostedBy",
-        "name",
-        "IRI"
-    ],
-    "properties": {
-        "IRI": {
-            "type": "string",
-            "_formats": ["iri"],
-            "_instruction": "Enter the IRI of the resource item."
-        },
-        "name": {
-            "type": "string",
-            "_instruction": "Enter a label for this item."
-        },
-        "hostedBy": {
-            "_instruction": "Add the hosting organization of this live paper resource item.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/Organization"
-            ]
-        },
-        "isPartOf": {
-            "_linkedTypes": [
-              "https://openminds.ebrains.eu/publications/LivePaperSection"
-            ],
-            "_instruction": "Enter the section this resource item is part of."
-          }
+  "_type": "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
+  "required": [  
+    "hostedBy",
+    "IRI",
+    "isPartOf",
+    "name"
+  ],
+  "properties": {   
+    "hostedBy": {
+      "_instruction": "Add the host organization of this live paper resource item.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization"
+      ]
+    },
+    "IRI": {
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this live paper resource item."
+    }, 
+    "isPartOf": {      
+      "_instruction": "Add the live paper section this live paper resource item is part of.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/publications/LivePaperSection"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this live paper resource item."
     }
+  }
 }
