@@ -6,14 +6,14 @@
   ],
   "properties": {
     "isPartOf": {
-      "_instruction": "Enter the issue number of this publication issue.",
+      "_instruction": "Add the publication volume this publication issue is part of.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/publications/PublicationVolume"
       ]
     },    
     "issueNumber": {
       "type": "string",
-      "_instruction": "Add the publication volume this publication issue is part of."
+      "_instruction": "Enter the issue number of this publication issue."
     }
   }
 }
