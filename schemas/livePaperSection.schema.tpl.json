@@ -26,10 +26,8 @@
       "_instruction": "Enter an integer that is used to sort this live paper section in ascending order with other live paper sections of the overarching live paper version."
     },   
     "type": {
-      "_instruction": "Add the type of this live paper section."
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/LivePaperSectionType"
-      ]
+      "type": "string",
+      "_instruction": "Add the type of this live paper section (e.g., 'custom', 'generic', 'models', 'morphology', or 'traces')."
     }
   }
 }
