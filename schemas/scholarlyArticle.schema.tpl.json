@@ -1,15 +1,21 @@
 {
   "_type": "https://openminds.ebrains.eu/publications/ScholarlyArticle",
   "_extends": "creativeWork.schema.tpl.json",
-  "required": [
-    "name",
-    "datePublished",
+  "required": [    
+    "author",    
     "isPartOf",
-    "author"
+    "name",
+    "publicationDate"
   ],
-  "properties": {
+  "properties": {    
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI"
+      ]
+    },
     "isPartOf": {
-      "_instruction": "Indicates a CreativeWork that this item is part of.",
+      "_instruction": "Add the publication issue or volume this scholarly article is part of.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/publications/PublicationIssue",
         "https://openminds.ebrains.eu/publications/PublicationVolume"
@@ -17,7 +23,7 @@
     },
     "pagination": {
       "type": "string",
-      "_instruction": "Enter the page range."
+      "_instruction": "Enter the page range of this scholarly article."
     }
   }
 }

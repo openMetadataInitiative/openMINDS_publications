@@ -1,24 +1,30 @@
 {
   "_type": "https://openminds.ebrains.eu/publications/LivePaper",
   "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
-  "required": ["author"],
+  "required": [
+    "author"
+  ],
   "properties": {
     "author": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this live paper.",
-      "_linkedCategories": ["legalPerson"]
+      "_instruction": "Add all parties that contributed to this live paper as authors.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
-      "_linkedTypes": ["https://openminds.ebrains.eu/core/DOI"]
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI"
+      ]
     },
     "hasVersion": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several versions of this live paper.",
+      "_instruction": "Add all versions of this live paper.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/publications/LivePaperVersion"
       ]
