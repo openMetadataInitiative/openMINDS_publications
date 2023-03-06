@@ -6,7 +6,7 @@
     "order",
     "type"
   ],
-  "properties": {       
+  "properties": {
     "description": {
       "type": "string",
       "_instruction": "Enter a description of this live paper section."
