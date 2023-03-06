@@ -1,33 +1,33 @@
 {
   "_type": "https://openminds.ebrains.eu/publications/LivePaperSection",
   "required": [
-    "isPartOf",
+    "isPartOf",    
+    "name",
     "order",
-    "sectionType",
-    "name"
+    "type"
   ],
   "properties": {
-    "sectionType": {
+    "description": {
       "type": "string",
-      "_instruction": "Add the type of this live paper section: one of 'custom', 'generic', 'models', 'morphology', 'traces'"
+      "_instruction": "Enter a description of this live paper section."
+    },
+    "isPartOf": {     
+      "_instruction": "Add the live paper version this live paper section is part of.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/publications/LivePaperVersion"
+      ]
+    }, 
+    "name": {
+      "type": "string",
+      "_instruction": "Enter the name (or title) of this live paper section."
     },
     "order": {
       "type": "integer",
-      "_instruction": "Enter the order in which this section should appear."
-    },
-    "name": {
+      "_instruction": "Enter an integer that is used to sort this live paper section in ascending order with other live paper sections of the overarching live paper version."
+    },   
+    "type": {
       "type": "string",
-      "_instruction": "Enter a title for this section."
-    },
-    "description": {
-      "type": "string",
-      "_instruction": "Enter a textual description of the section contents."
-    },
-    "isPartOf": {
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/LivePaperVersion"
-      ],
-      "_instruction": "Enter the live paper version this section is part of."
+      "_instruction": "Add the type of this live paper section (e.g., 'custom', 'generic', 'models', 'morphology', or 'traces')."
     }
   }
 }
