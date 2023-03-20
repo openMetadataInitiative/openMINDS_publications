@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/publications/Chapter",
+  "_categories": [
+    "publicationReference"
+  ],
   "_extends": "creativeWork.schema.tpl.json",
   "required": [
     "author",    
