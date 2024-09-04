@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/publications/Periodical",
+  "_type": "/publications/Periodical",
   "required": [
     "shortName"
   ],
@@ -11,7 +11,7 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this periodical.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ISSN"
+        "/core/ISSN"
       ]
     },    
     "name": {

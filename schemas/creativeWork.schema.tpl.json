@@ -19,14 +19,14 @@
       "uniqueItems": true,
       "_instruction": "Add all references this creative work cites.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN"
+        "/core/DOI",
+        "/core/ISBN"
       ]
     },    
     "copyright": {
       "_instruction": "Enter the copyright information of this creative work.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Copyright"
+        "/core/Copyright"
       ]
     },
     "creationDate": {
@@ -51,7 +51,7 @@
       "uniqueItems": true,
       "_instruction": "Add all persons that edited this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person"
+        "/core/Person"
       ]
     },
     "funding": {
@@ -60,7 +60,7 @@
       "uniqueItems": true,
       "_instruction": "Add all funding information of this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Funding"
+        "/core/Funding"
       ]
     },        
     "IRI": {
@@ -82,7 +82,7 @@
     "license": {
       "_instruction": "Add the license of this creative work.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "/core/License"
       ]
     },
     "modificationDate": {

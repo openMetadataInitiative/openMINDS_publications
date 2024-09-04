@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/publications/Book",
+  "_type": "/publications/Book",
   "_categories": [
     "publicationReference"
   ],
@@ -12,8 +12,8 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [        
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN"
+        "/core/DOI",
+        "/core/ISBN"
       ]
     }
   }

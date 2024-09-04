@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/publications/PublicationVolume",
+  "_type": "/publications/PublicationVolume",
   "required": [
     "isPartOf",
     "volumeNumber"
@@ -8,7 +8,7 @@
     "isPartOf": {
       "_instruction": "Add the periodical this publication volume is part of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/Periodical"
+        "/publications/Periodical"
       ]
     },
     "volumeNumber": {

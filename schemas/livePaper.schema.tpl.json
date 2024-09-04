@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/publications/LivePaper",
+  "_type": "/publications/LivePaper",
   "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
   "required": [
     "author"
@@ -17,7 +17,7 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "/core/DOI"
       ]
     },
     "hasVersion": {
@@ -26,7 +26,7 @@
       "uniqueItems": true,
       "_instruction": "Add all versions of this live paper.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/LivePaperVersion"
+        "/publications/LivePaperVersion"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/publications/PublicationIssue",
+  "_type": "/publications/PublicationIssue",
   "required": [
     "isPartOf", 
     "issueNumber"
@@ -8,7 +8,7 @@
     "isPartOf": {
       "_instruction": "Add the publication volume this publication issue is part of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/publications/PublicationVolume"
+        "/publications/PublicationVolume"
       ]
     },    
     "issueNumber": {
