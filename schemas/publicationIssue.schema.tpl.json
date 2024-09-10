@@ -1,5 +1,5 @@
 {
-  "_type": "/publications/PublicationIssue",
+  "_type": "PublicationIssue",
   "required": [
     "isPartOf", 
     "issueNumber"
@@ -8,7 +8,7 @@
     "isPartOf": {
       "_instruction": "Add the publication volume this publication issue is part of.",
       "_linkedTypes": [
-        "/publications/PublicationVolume"
+        "PublicationVolume"
       ]
     },    
     "issueNumber": {

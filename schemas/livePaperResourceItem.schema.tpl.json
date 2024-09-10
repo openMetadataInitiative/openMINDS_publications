@@ -1,5 +1,5 @@
 {
-  "_type": "/publications/LivePaperResourceItem",
+  "_type": "LivePaperResourceItem",
   "required": [
     "hostedBy",
     "IRI",
@@ -10,9 +10,9 @@
     "hostedBy": {
       "_instruction": "Add the web service or organization that hosts this live paper resource item.",
       "_linkedTypes": [
-        "/core/Organization",
-        "/core/WebService",
-        "/controlledTerms/Service"
+        "Organization",
+        "WebService",
+        "Service"
       ]
     },
     "IRI": {
@@ -25,7 +25,7 @@
     "isPartOf": {
       "_instruction": "Add the live paper section this live paper resource item is part of.",
       "_linkedTypes": [
-        "/publications/LivePaperSection"
+        "LivePaperSection"
       ]
     },
     "name": {

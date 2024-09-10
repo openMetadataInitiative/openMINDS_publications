@@ -1,5 +1,5 @@
 {
-  "_type": "/publications/Book",
+  "_type": "Book",
   "_categories": [
     "publicationReference"
   ],
@@ -12,8 +12,8 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [        
-        "/core/DOI",
-        "/core/ISBN"
+        "DOI",
+        "ISBN"
       ]
     }
   }
