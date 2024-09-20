@@ -1,5 +1,5 @@
 {
-  "_type": "LivePaperSection",
+  "_type": "publications:LivePaperSection",
   "required": [
     "isPartOf",    
     "name",
@@ -14,7 +14,7 @@
     "isPartOf": {     
       "_instruction": "Add the live paper version this live paper section is part of.",
       "_linkedTypes": [
-        "LivePaperVersion"
+        "publications:LivePaperVersion"
       ]
     }, 
     "name": {

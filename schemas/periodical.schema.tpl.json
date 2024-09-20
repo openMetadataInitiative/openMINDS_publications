@@ -1,5 +1,5 @@
 {
-  "_type": "Periodical",
+  "_type": "publications:Periodical",
   "required": [
     "shortName"
   ],
@@ -11,7 +11,7 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this periodical.",
       "_linkedTypes": [
-        "ISSN"
+        "core:ISSN"
       ]
     },    
     "name": {

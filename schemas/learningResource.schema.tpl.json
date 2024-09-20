@@ -1,5 +1,5 @@
 {
-  "_type": "LearningResource",
+  "_type": "publications:LearningResource",
   "_extends": "creativeWork.schema.tpl.json",
   "required": [    
     "about",
@@ -19,13 +19,13 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [
-        "DOI"
+        "core:DOI"
       ]
     },
     "educationalLevel": {
       "_instruction": "Add the educational level that best summarizes the prerequisite of this learning resource.",
       "_linkedTypes": [
-        "EducationalLevel"
+        "controlledTerms:EducationalLevel"
       ]
     },    
     "learningOutcome": {
@@ -43,8 +43,8 @@
     "requiredTime": {
         "_instruction": "Enter the time that is required to complete this learning resource.",
         "_embeddedTypes": [
-            "QuantitativeValue",
-            "QuantitativeValueRange"
+            "core:QuantitativeValue",
+            "core:QuantitativeValueRange"
         ]
     },
     "topic": {
@@ -54,7 +54,7 @@
     "type": {
       "_instruction": "Add the type of this learning resource.",
       "_linkedTypes": [
-        "LearningResourceType"
+        "controlledTerms:LearningResourceType"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_type": "Chapter",
+  "_type": "publications:Chapter",
   "_categories": [
     "publicationReference"
   ],
@@ -14,13 +14,13 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [
-        "DOI"
+        "core:DOI"
       ]
     },
     "isPartOf": {
       "_instruction": "Add the book this chapter is part of.",
       "_linkedTypes": [
-        "Book"
+        "publications:Book"
       ]
     },
     "pagination": {

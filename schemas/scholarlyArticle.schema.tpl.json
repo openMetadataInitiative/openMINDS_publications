@@ -1,5 +1,5 @@
 {
-  "_type": "ScholarlyArticle",
+  "_type": "publications:ScholarlyArticle",
   "_categories": [
     "publicationReference"
   ],
@@ -14,14 +14,14 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [
-        "DOI"
+        "core:DOI"
       ]
     },
     "isPartOf": {
       "_instruction": "Add the publication issue or volume this scholarly article is part of.",
       "_linkedTypes": [
-        "PublicationIssue",
-        "PublicationVolume"
+        "publications:PublicationIssue",
+        "publications:PublicationVolume"
       ]
     },
     "pagination": {
