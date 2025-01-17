@@ -1,7 +1,7 @@
 {
   "_type": "https://openminds.ebrains.eu/publications/Periodical",
   "required": [
-    "shortName"
+    "name"
   ],
   "properties": {
     "abbreviation": {
