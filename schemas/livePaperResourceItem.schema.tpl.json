@@ -8,9 +8,11 @@
   ],
   "properties": {   
     "hostedBy": {
-      "_instruction": "Add the host organization of this live paper resource item.",
+      "_instruction": "Add the web service or organization that hosts this live paper resource item.",
       "_linkedTypes": [
-        "core:Organization"
+        "core:Organization",
+        "core:WebService",
+        "controlledTerms:Service"
       ]
     },
     "IRI": {
