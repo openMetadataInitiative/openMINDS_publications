@@ -4,13 +4,13 @@
     "publicationReference"
   ],
   "_extends": "creativeWork.schema.tpl.json",
-  "required": [    
-    "author",    
+  "required": [
+    "author",
     "isPartOf",
     "name",
     "publicationDate"
   ],
-  "properties": {    
+  "properties": {
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [
@@ -26,7 +26,7 @@
     },
     "pagination": {
       "type": "string",
-      "_instruction": "Enter the page range of this scholarly article."
+      "_instruction": "Enter the page range of this scholarly article, expressed as two numbers separated by a dash, e.g., '435-452', or a non-page-number identifier such as used in online-only journals."
     }
   }
 }
