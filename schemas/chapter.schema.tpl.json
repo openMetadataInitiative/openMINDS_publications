@@ -5,12 +5,12 @@
   ],
   "_extends": "creativeWork.schema.tpl.json",
   "required": [
-    "author",    
+    "author",
     "isPartOf",
     "name",
     "publicationDate"
   ],
-  "properties": {    
+  "properties": {
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this creative work.",
       "_linkedTypes": [
@@ -25,7 +25,7 @@
     },
     "pagination": {
       "type": "string",
-      "_instruction": "Enter the page range of this chapter."
+      "_instruction": "Enter the page range of this chapter, expressed as two numbers separated by a dash, e.g., '435-452'."
     }
   }
 }
