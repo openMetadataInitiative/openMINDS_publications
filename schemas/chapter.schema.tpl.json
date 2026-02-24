@@ -5,7 +5,7 @@
   ],
   "_extends": "creativeWork.schema.tpl.json",
   "required": [
-    "author",
+    "contribution",
     "isPartOf",
     "name",
     "publicationDate"
