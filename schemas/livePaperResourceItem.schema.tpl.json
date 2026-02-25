@@ -11,8 +11,8 @@
       "_instruction": "Add the web service or organization that hosts this live paper resource item.",
       "_linkedTypes": [
         "core:Organization",
-        "core:WebService",
-        "controlledTerms:Service"
+        "controlledTerms:Service",
+        "core:Service"
       ]
     },
     "IRI": {

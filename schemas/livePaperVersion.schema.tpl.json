@@ -3,7 +3,7 @@
   "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
   "required": [
     "digitalIdentifier",
-    "license"
+    "usageCondition"
   ],
   "properties": {
     "about": {
@@ -15,15 +15,6 @@
         "core:DatasetVersion",
         "core:ModelVersion",
         "core:SoftwareVersion"
-      ]
-    },
-    "author": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that contributed to this live paper version as authors. Note that these authors will overwrite the author list provided for the overarching live paper.",
-      "_linkedCategories": [
-        "legalPerson"
       ]
     },
     "digitalIdentifier": {
@@ -51,12 +42,6 @@
       "_instruction": "Add the version-independent information about this live paper.",
       "_linkedTypes": [
         "publications:LivePaper"
-      ]
-    },
-    "license": {
-      "_instruction": "Add the license of this live paper version.",
-      "_linkedTypes": [
-        "core:License"
       ]
     },
     "modificationDate": {

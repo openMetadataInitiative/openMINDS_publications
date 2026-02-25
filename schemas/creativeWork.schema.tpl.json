@@ -3,16 +3,7 @@
     "abstract": {
       "type": "string",
       "_instruction": "Enter the abstract or a short description of the creative work."
-    },    
-    "author": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that contributed to this creative work as authors.",
-      "_linkedCategories": [
-        "legalPerson"
-      ]
-    },    
+    },
     "citedPublication": {
       "type": "array",
       "minItems": 1,
@@ -22,7 +13,25 @@
         "core:DOI",
         "core:ISBN"
       ]
-    },    
+    },
+    "contribution": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all individual, organisational, or consortial contributions to this creative work.",
+      "_embeddedTypes": [
+        "core:Contribution"
+      ]
+    },
+    "contributorAffiliation": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all affiliations for the individual contributors to this research product version.",
+      "_embeddedTypes": [
+        "core:Affiliation"
+      ]
+    },
     "copyright": {
       "_instruction": "Enter the copyright information of this creative work.",
       "_embeddedTypes": [
@@ -35,24 +44,6 @@
         "date"
       ],
       "_instruction": "Enter the date on which this creative work was created, formatted as '2023-02-07'."
-    },
-    "custodian": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that fulfill the role of a custodian for this creative work (e.g., a corresponding author). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the creative work.",
-      "_linkedCategories": [
-        "legalPerson"
-      ]
-    },
-    "editor": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all persons that edited this creative work.",
-      "_linkedTypes": [
-        "core:Person"
-      ]
     },
     "funding": {
       "type": "array",
@@ -79,12 +70,6 @@
         "keyword"
       ]
     },
-    "license": {
-      "_instruction": "Add the license of this creative work.",
-      "_linkedTypes": [
-        "core:License"
-      ]
-    },
     "modificationDate": {
       "type": "string",
       "_formats": [
@@ -103,10 +88,14 @@
       ],
       "_instruction": "Enter the date on which this creative work was published, formatted as '2023-02-07'."
     },
-    "publisher": {
-      "_instruction": "Add the party (private or commercial) that published this creative work.",
-      "_linkedCategories": [
-        "legalPerson"
+    "usageCondition": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all licenses and available data usage agreements applicable to this creative work.",
+      "_linkedTypes": [
+        "core:License",
+        "core:UsageAgreement"
       ]
     },
     "versionIdentifier": {
