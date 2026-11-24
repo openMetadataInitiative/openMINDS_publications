@@ -11,7 +11,7 @@
 [![GitHub][license-shield]][license-url]
 [![GitHub contributors][contributors-shield]][contributors-url]
 
-The **openMINDS_publications** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It extends openMINDS, by providing metadata schemas for representing publications in neuroscience, including interactive publications such as Live Papers. It includes schemas for articles, books, preprints, blog posts, live papers, etc., linked to other openMINDS entities such as Datasets. The schemas closely follow those in Schema.org but extend them for improved interoperability with openMINDS.
+This source repository hosts one of the schema modules of the openMINDS metadata framework that builds the overall openMINDS metadata model. It is composed of modular metadata schemas for in-depth descriptions of scholarly publications, including live papers.
 
 To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**][docu-url].  
 There you can also explore directly the :arrow_right: [**openMINDS_publications schema specifications**][docu-publications-url].
