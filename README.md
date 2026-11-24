@@ -11,7 +11,7 @@
 [![GitHub][license-shield]][license-url]
 [![GitHub contributors][contributors-shield]][contributors-url]
 
-This source repository hosts one of the schema modules of the openMINDS metadata framework that builds the overall openMINDS metadata model. It is composed of modular metadata schemas for in-depth descriptions of scholarly publications, including live papers.
+This **openMINDS_publications** repository hosts one of the schema modules of the **openMINDS metadata framework** that build the overall openMINDS metadata model. It is composed of modular metadata schemas for in-depth descriptions of scholarly publications, including live papers.
 
 To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**][docu-url].  
 There you can also explore directly the :arrow_right: [**openMINDS_publications schema specifications**][docu-publications-url].
